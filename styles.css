@@ -6,26 +6,54 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   color: #1f2937;
-  background-color: #f3f4f6;
+  background-color: #eef2ff;
 }
 
 header {
-  padding: 48px 20px;
+  padding: 64px 20px;
   text-align: center;
   color: white;
-  background-color: #2563eb;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
 }
 
 main {
-  max-width: 800px;
+  max-width: 960px;
   min-height: 55vh;
   margin: 0 auto;
   padding: 40px 20px;
 }
 
-section {
+.introduccion {
   padding: 24px;
   background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgb(37 99 235 / 12%);
+}
+
+.boton {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+  background-color: #7c3aed;
+  border-radius: 6px;
+}
+
+.temas {
+  margin-top: 40px;
+}
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.tarjeta {
+  padding: 20px;
+  background-color: white;
+  border-top: 4px solid #2563eb;
   border-radius: 8px;
 }
 
@@ -33,4 +61,10 @@ footer {
   padding: 16px;
   text-align: center;
   color: #6b7280;
+}
+
+@media (max-width: 700px) {
+  .tarjetas {
+    grid-template-columns: 1fr;
+  }
 }
