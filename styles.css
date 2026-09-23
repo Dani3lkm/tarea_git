@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #1f2937;
+  background-color: #f3f4f6;
+}
+
+header {
+  padding: 48px 20px;
+  text-align: center;
+  color: white;
+  background-color: #2563eb;
+}
+
+main {
+  max-width: 800px;
+  min-height: 55vh;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+section {
+  padding: 24px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+footer {
+  padding: 16px;
+  text-align: center;
+  color: #6b7280;
+}
