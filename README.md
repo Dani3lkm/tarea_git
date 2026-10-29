@@ -16,3 +16,4 @@ restauración de cambios, commits, historial, `reset` y navegación con
 > comandos que descartan trabajo se realizan únicamente después de crear
 > puntos de recuperación.
 # tarea_git
+# tarea_git
